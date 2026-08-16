@@ -1,0 +1,20 @@
+{
+  "name": "mme-mod-bot",
+  "version": "0.1.0",
+  "description": "Self-hosted Telegram moderation bot for MME work groups (MissRose-style anti-spam/anti-malware)",
+  "main": "bot.js",
+  "type": "commonjs",
+  "scripts": {
+    "start": "node bot.js"
+  },
+  "dependencies": {
+    "telegraf": "^4.16.3",
+    "dotenv": "^16.4.5",
+    "express": "^4.21.0",
+    "cors": "^2.8.5",
+    "jsonwebtoken": "^9.0.2"
+  },
+  "engines": {
+    "node": ">=22.5.0"
+  }
+}
